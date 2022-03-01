@@ -47,6 +47,7 @@ body{
 .socials i{
     margin-left:1rem;
     color:#150040;
+    font-size:2rem;
 }
 .socials i:hover{
     color:white;
@@ -54,16 +55,18 @@ body{
 /* heading formatting */
 .heading{
     font-family:'Nunito',sans-serif;
-    font-weight:500;
     line-height:1;
-    padding-top:25vh;
+    padding-top:22vh;
     padding-left:5vw;
+
 }
 .head1{
     font-size:5rem;
+    font-weight:600;
 }
 .head2{
     font-size:7rem;
+    font-weight:800;
 }
 .desc1{
     font-family:'Nunito',sans-serif;
@@ -102,8 +105,7 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
-    justify-content: center;
-    width:500px;
+    width:fit-content;
 }
 .regnumInput{
     font-family:'Nunito',sans-serif;
@@ -111,11 +113,13 @@ body{
     background-color:rgba(255, 255, 255, 0.185);
     width:500px;
     outline: none;
-    padding:1rem;
+    padding-left:2rem;
+    padding-bottom:1rem;
+    padding-top:1rem;
     margin-top:2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     border:2px solid white;
-    margin-bottom:2em;
+    margin-bottom:1rem;
     font-size:2rem;
     text-align: center;
     color:white;
@@ -137,7 +141,7 @@ body{
 .checkBtnContainer .a{
     cursor:pointer;
     text-decoration: none;
-    color:black;
+    color:#150040;
     font-family: "Nunito",sans-serif;
     font-size:1.5rem;
     font-weight:800;
