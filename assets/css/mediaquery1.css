@@ -56,18 +56,19 @@
     font-size:2rem;
     line-height:normal;
 }
-.desc1{
+#result .desc1{
     font-size:25px;
+    line-height:0;
 }
 .desc2{
-    margin-top:2rem;
-    font-size:15px;
+    /* margin-top:2rem; */
+    font-size:20px;
 }
 
 /* socials need to be center aligned and white */
 .socials{
     width:100%;
-    right:auto;
+
     position:absolute;
     display:flex;
     align-items:center;
@@ -86,7 +87,8 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    bottom:2px;
+    bottom:9px;
+    width:100%;
 }
 .socials-2 i{
     margin:5px;
@@ -98,7 +100,8 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    bottom:2px;
+    bottom:9px;
+    width:100%;
 }
 .socials-3 i{
     margin:5px;
