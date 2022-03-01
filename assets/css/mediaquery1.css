@@ -1,0 +1,92 @@
+.logo{
+    margin:0;
+    padding-top:2rem;
+    float:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* socials need to be center aligned and white */
+.socials{
+    width:100%;
+    min-height:10px;
+    right:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.socials i{
+    color:white;
+}
+
+/* formatting heading */
+.heading{
+    padding:0;
+    padding-top:2rem;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    font-size:2rem;
+}
+.head1{
+    font-size:2rem;
+    /* padding-top:2rem; */
+}
+.head2{
+    font-size:3rem;
+}
+.desc1{
+    font-size:2rem;
+}
+.desc2{
+    margin-top:2rem;
+    font-size:1.5rem;
+}
+/* formatting input table */
+.regnumInputContainer{
+    width:auto;
+    margin-top:2rem;
+}
+.regnumInput{
+    width:300px;
+    padding:0.5rem;
+    font-size:2rem;
+}
+.regnumInput::placeholder{
+    font-size: 1.5rem;
+    padding:0;
+}
+/* checkBtn styling */
+.checkBtnContainer .a{
+    font-size:1rem;
+}
+/* results page formatting */
+#result{
+    background-image: url(../images/Homebg.png);
+    margin:0;
+    padding:0;
+}
+.socials-2{
+    margin:0;
+    position:relative;
+}
+.socials-2 i{
+    font-size:2rem;
+}
+.socials-3{
+    margin:0;
+    position: absolute;
+    bottom:2rem;
+}
+.socials-3 i{
+    font-size:2rem;
+}
+#result-2 .heading .desc2{
+    padding-top:10rem;
+    font-size:1.8rem;
+}
+#result-2{
+    background-image: url(../images/Homebg.png);   
+}

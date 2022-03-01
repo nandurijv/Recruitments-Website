@@ -1,0 +1,184 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900&display=swap');
+
+/* main stylesheet */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #150040;
+}
+#home{
+    min-height:100vh;
+    min-width:100vw;
+    background-image: url(../images/Homebg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition:0.3s all ease;
+}
+/* common classes definition */
+.light{
+    color:white;
+}
+.dark{
+    color:black;
+}
+
+/* setting logo to float on right */
+.logo{
+    margin:2rem;
+    float:right;
+}
+.logo img{
+    height:70px;
+}
+
+/* social handles always appear on bottom */
+.socials{
+    position:absolute;
+    top:95%;
+    right:1%;
+}
+.socials i{
+    margin-left:2rem;
+    color:#150040;
+}
+.socials i:hover{
+    color:white;
+}
+/* heading formatting */
+.heading{
+    font-family:'Nunito',sans-serif;
+    font-weight:500;
+    line-height:1;
+    padding-top:25vh;
+    padding-left:5vw;
+}
+.head1{
+    font-size:5rem;
+}
+.head2{
+    font-size:7rem;
+}
+.desc1{
+    font-family:'Nunito',sans-serif;
+    font-weight:400;
+    font-size:2.5rem;
+    line-height: 1.2;
+}
+.desc2{
+    font-family:'Nunito',sans-serif;
+    font-weight:300;
+    font-size:2rem;
+    letter-spacing: 2;
+}
+.socials-2{
+    position:absolute;
+    bottom:2rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:35rem;
+}
+.socials-3{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    margin-top:15rem;
+    margin-left:35rem;
+}
+.socials-3 i{
+    margin-left:2rem;
+    color:white;
+}
+/* styling input tab */
+.regnumInputContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    width:500px;
+}
+.regnumInput{
+    font-family:'Nunito',sans-serif;
+    font-weight:200;
+    background-color:rgba(255, 255, 255, 0.185);
+    width:500px;
+    outline: none;
+    padding:1rem;
+    margin-top:2rem;
+    border-radius: 2rem;
+    border:2px solid white;
+    margin-bottom:2em;
+    font-size:2rem;
+    text-align: center;
+    color:white;
+}
+
+.regnumInput::placeholder{
+    color:rgba(255, 255, 255, 0.61);
+}
+
+.regnumInput:focus{
+    color:black;
+    background-color:rgba(255, 255, 255, 0.74);
+    font-weight:400; 
+}
+.regnumInput:focus::placeholder{
+    color:transparent;
+}
+/* styling check btn */
+.checkBtnContainer .a{
+    cursor:pointer;
+    text-decoration: none;
+    color:black;
+    font-family: "Nunito",sans-serif;
+    font-size:1.5rem;
+    font-weight:800;
+    border-radius: 2rem;
+    padding:1rem;
+    background-image: linear-gradient(to right,#A45EF5,#D271E4);
+}
+.checkBtnContainer .a:hover{
+    color:white;
+}
+/* not showing the result page */
+#result{
+    /* display:none; */
+    background-image:url(../images/Resultsbg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:100vh;
+    display:none;
+}
+#result .head2{
+    font-size:3rem;
+}
+.socials-2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.socials-2 i{
+    margin-left:2rem;
+    color:white;
+}
+.socials-2 i:hover{
+    color:#D271E4;
+}
+
+/* result - 2 styling */
+#result-2{
+    display:none;
+    min-height:100vh;
+    background-image:url(../images/Resultsbg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
