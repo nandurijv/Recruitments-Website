@@ -1,4 +1,5 @@
 .logo{
+    position:absolute;
     margin:0;
     padding:1rem;
     float:none;
@@ -14,16 +15,15 @@
 }
 .heading{
     padding:0;
-    padding:4rem;
-    padding-top:55%;
     display:flex;
     flex-direction: column;
     align-items:center;
-    /* justify-content:center; */
+    justify-content:center;
     font-size:2rem;
+    height:100vh;
 }
 .head1{
-    font-size:38px;
+    font-size:32px;
     font-weight:400;
 }
 .head2{
@@ -48,7 +48,9 @@
     height:fit-content;
 }
 #result .head1{
-    font-size:30px;
+    font-size:2rem;
+    text-shadow:2px 2px white;
+    color:#A45EF5;
 }
 #result .head2{
     font-size:2rem;

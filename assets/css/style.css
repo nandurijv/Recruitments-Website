@@ -31,11 +31,14 @@ body{
 
 /* setting logo to float on right */
 .logo{
-    margin:2rem;
-    float:right;
+    margin:0;
+    padding:1rem;
+    float:none;
+    width:100%;
+    text-align:right;
 }
 .logo img{
-    height:70px;
+    height:65px;
 }
 
 /* social handles always appear on bottom */
@@ -56,7 +59,7 @@ body{
 .heading{
     font-family:'Nunito',sans-serif;
     line-height:1;
-    padding-top:22vh;
+    padding-top:4.5rem;
     padding-left:5vw;
 
 }
@@ -175,9 +178,11 @@ body{
 }
 #result .head1{
     font-size:4rem;
+    font-weight:800;
 }
 #result .head2{
     font-size:3rem;
+    font-weight:600;
 }
 #description{
     width:100%;
