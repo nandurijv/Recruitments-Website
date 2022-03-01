@@ -200,6 +200,7 @@ body {
 }
 #result-2 .heading {
   padding: 0;
+  padding-top:8rem;
   align-self: center;
   display: flex;
   align-items: center;
