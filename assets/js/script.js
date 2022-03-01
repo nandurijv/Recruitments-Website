@@ -15,7 +15,7 @@ function validate() {
         showResult();
     }
     else{
-        alert("Please Enter an acceptable Registration Number");
+        alert("Please Enter an acceptable Registration Number ( Must Begin with '21' ) ");
     }
 }
 
