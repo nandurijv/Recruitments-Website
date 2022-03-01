@@ -53,7 +53,7 @@ function showResult(){
                 let desc = document.getElementById("description");
                 desc.innerHTML = 
                 
-                `<span class="desc1">We are delighted to<br> have you on-board <br>with us in the <br><b>${obj[key]["DOMAIN"]}</b> <br>domain.<br></span>`;
+                `<span class="desc1">We are delighted to<br> have you on-board <br>with us in the <br><b>${obj[key]["DOMAIN"]}</b> domain.</span><br><br>`;
                 const homeSection = document.getElementById("home");
                 homeSection.style.display = "none";
                 const resultSection = document.getElementById("result");

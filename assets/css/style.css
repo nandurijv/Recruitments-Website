@@ -60,6 +60,7 @@ body{
     padding-left:5vw;
 
 }
+
 .head1{
     font-size:5rem;
     font-weight:600;
@@ -76,8 +77,8 @@ body{
 }
 .desc2{
     font-family:'Nunito',sans-serif;
-    font-weight:300;
-    font-size:2rem;
+    font-weight:400;
+    font-size:1.5rem;
     letter-spacing: 2;
 }
 .socials-2{
@@ -86,18 +87,26 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-    margin-left:35rem;
+    width:100%;
 }
+.socials-2 i{
+    margin-left:1rem;
+    color:white;
+}
+.socials-2 i:hover{
+    color:#D271E4;
+}
+
 .socials-3{
     display:flex;
     align-items:center;
     justify-content:center;
     position:absolute;
-    margin-top:15rem;
-    margin-left:35rem;
+    bottom:15px;
+    width:100%;
 }
 .socials-3 i{
-    margin-left:2rem;
+    margin-left:1rem;
     color:white;
 }
 /* styling input tab */
@@ -161,23 +170,18 @@ body{
     min-height:100vh;
     display:none;
 }
+#result .heading{
+    padding-left:0;
+}
+#result .head1{
+    font-size:4rem;
+}
 #result .head2{
     font-size:3rem;
 }
-.socials-2{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    
+#description{
+    width:100%;
 }
-.socials-2 i{
-    margin-left:2rem;
-    color:white;
-}
-.socials-2 i:hover{
-    color:#D271E4;
-}
-
 /* result - 2 styling */
 #result-2{
     display:none;
@@ -185,4 +189,15 @@ body{
     background-image:url(../images/Resultsbg.png);
     background-repeat: no-repeat;
     background-size:cover;
+}
+#result-2 .heading{
+    padding:0;
+    align-self: center;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#result-2 .desc2{
+    font-size:3rem;
 }
