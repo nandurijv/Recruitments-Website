@@ -45,7 +45,7 @@ body{
     right:1%;
 }
 .socials i{
-    margin-left:2rem;
+    margin-left:1rem;
     color:#150040;
 }
 .socials i:hover{
@@ -79,7 +79,7 @@ body{
 }
 .socials-2{
     position:absolute;
-    bottom:2rem;
+    bottom:15px;
     display:flex;
     align-items:center;
     justify-content:center;
