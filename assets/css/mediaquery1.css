@@ -133,3 +133,6 @@
 #result-2{
     background-image: url(../images/Homebg.png);   
 }
+#result-2 .heading{
+    height:100vh;
+}

@@ -201,7 +201,6 @@ body {
 #result-2 .heading {
   padding: 0;
   align-self: center;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
