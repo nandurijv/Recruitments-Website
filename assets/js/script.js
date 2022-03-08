@@ -25,10 +25,11 @@ function validate() {
         timer.innerHTML = `${timeleft+1}`;
         timeleft -= 1;
       }, 1000);
+      var hide = setTimeout(()=>{
+        let overlay = document.getElementsByClassName("overlay")[0];
+      overlay.style.display="none";location.reload();},4000);
     }
-    var hide = setTimeout(()=>{
-      let overlay = document.getElementsByClassName("overlay")[0];
-    overlay.style.display="none";location.reload();},4000);
+    
     
 }
 
