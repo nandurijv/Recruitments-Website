@@ -111,6 +111,10 @@ body {
   margin-left: 1rem;
   color: white;
 }
+
+.socials-3 i:hover{
+  color:#d271e4;
+}
 /* styling input tab */
 .regnumInputContainer {
   display: flex;
@@ -174,6 +178,7 @@ body {
 }
 #result .heading {
   padding-left: 0;
+  padding-top:10rem;
 }
 #result .head1 {
   font-size: 4rem;
@@ -208,4 +213,37 @@ body {
 }
 #result-2 .desc2 {
   font-size: 3rem;
+}
+.backBtn{
+  position:absolute;
+  /* border:none; */
+  margin:2rem;
+}
+.backBtn button{
+  background-color:#c897ff;
+  padding:1rem;
+  border:none;
+  border-radius: 2rem;
+  box-shadow: 5px 5px #7700ff;
+  cursor:pointer;
+}
+.backBtn button:hover{
+  box-shadow: none;;
+}
+/* overlay styling */
+.overlay{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  padding-top:25%;
+  text-align:center;
+  background-color:#150040;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-family:"Poppins",sans-serif;
+  font-size:32px;
+  display:none;
+
 }
