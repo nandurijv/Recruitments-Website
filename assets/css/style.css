@@ -89,9 +89,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
   left: 50%;
   right: 50%;
+  
 }
 .socials-2 i {
   margin-left: 1rem;
