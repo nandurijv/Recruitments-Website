@@ -93,7 +93,7 @@ body {
 }
 .socials-2 i {
   margin-left: 1rem;
-  color: white;
+  color: #ffffff !important;
 }
 .socials-2 i:hover {
   color: #d271e4;
