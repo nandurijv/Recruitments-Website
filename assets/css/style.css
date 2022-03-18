@@ -59,8 +59,8 @@ body {
 .heading {
   font-family: "Nunito", sans-serif;
   line-height: 1;
-  padding-top: 4.5rem;
-  padding-left: 5vw;
+  padding-top: 25vh;
+  margin: 10px 27px 8px 27px;
 }
 
 .head1 {
@@ -89,11 +89,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  left: 50%;
+  right: 50%;
+  
 }
 .socials-2 i {
   margin-left: 1rem;
-  color: white;
+  color: #ffffff !important;
 }
 .socials-2 i:hover {
   color: #d271e4;
@@ -104,8 +106,10 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 15px;
-  width: 100%;
+  right: 50%;
+  bottom: 2.5rem;
+  position: absolute;
+  left: 50%;
 }
 .socials-3 i {
   margin-left: 1rem;
